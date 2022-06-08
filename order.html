@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Script links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/aebe1e736b.js" crossorigin="anonymous"></script>
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- title -->
+    <title>Jackofruitty | order</title>
+</head>
+<body>
+    <div>
+
+        <!-- LANDING PAGE -->
+        <section class="home-section" id="home-div">
+            <div>
+            
+                <!-- NAVBAR -->
+                <div class="navbar navbar-dark bg-dark fixed-top " id="navbar">
+                    <div class="container">
+                        <div class="d-flex">
+                            <button class="navbar-toggler d-block d-md-none mx-2" type="button" data-toggle="collapse" data-target="#moileNav" aria-controls="collapseExample" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> 
+                            <a href="index.html" class="navbar-brand"><img src="./images/JackoFruity.PNG" alt="logo" style="width:100px;"></a>
+                        </div>
+                        
+                      
+    
+                        <nav class=" d-none d-md-block"> 
+                            <ul class="navbar nav">
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Shop
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item" href="cart.html">Cart</a>
+                                      <a class="dropdown-item" href="#">Order</a>
+                                      <a class="dropdown-item" href="payment.html">Pay</a>
+                                    </div>
+                                  </li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                            </ul>
+                        </nav>
+                           
+                        <div class="icon-nav">
+                            <a href="" style="margin-right: 10px;"><i class="bi bi-cart3"></i></a>
+                            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>  
+                    </div>
+                   
+                   
+                </div>
+    
+    
+                <!--NAVBAR MOBILE VIEW -->
+                
+    
+                <nav class=" collapse navbar-collapse bg-dark my-5 d-md-none fixed-top second-nav" id="moileNav" > 
+                    <ul class="nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Shop
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="cart.html">Cart</a>
+                              <a class="dropdown-item" href="order.html">Order</a>
+                              <a class="dropdown-item" href="payment.html">Pay</a>
+                            </div>
+                          </li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+               
+                <!-- NAVBAR MOBILE VIEW ENDS -->
+               
+
+                   
+
+                <div class="home-writeUp" style="margin-top: 200px;">
+                    <div class="container text-center" id="text-container">
+
+                        <h5>FRESH & ORGANIC</h5>
+                        <h1>Make Your Order Here!</h1>
+                           
+                    </div>
+
+                    <div class="d-flex justify-content-center" id="btn-div">
+                        <button class="btn btn-primary btn1">Fruit Collection</button>
+                        <button class="btn btn2">Contact Us</button>
+                    </div>
+                </div>
+            
+            </div>
+            
+                
+        </section>
+
+
+
+        <div class="row my-5 m-auto">
+            <div class="container col-md my-5">
+                <table class="table table-hover table-bordered">
+                    <tr class="text-primary table-active">
+                        <th> </th>
+                        <th>Product Name</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <button type="submit" class="btn btn-link bg-light">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </td>
+                        <td>
+                            <img class="img1" src="./images/Strawberry.JPG">
+                        </td>
+                        <td>Strawberry</td>
+                        <td>$85</td>
+                        <td><input type="number" class="form-control" id="usr"></td>
+                        <td>1</td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <button type="submit" class="btn btn-link bg-light">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </td>
+                        <td>
+                            <img class="img2" src="./images/Berry.JPG">
+                        </td>
+                        <td>Berry</td>
+                        <td>$70</td>
+                        <td>
+                            <input type="number" class="form-control" id="usr">
+                        </td>
+                        <td>1</td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <button type="submit" class="btn btn-link bg-light">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </td>
+                        <td>
+                            <img class="img3" src="./images/Lemon.JPG">
+                        </td>
+                        <td>Lemon</td>
+                        <td>$35</td>
+                        <td>
+                            <input type="number" class="form-control" id="usr">
+                        </td>
+                        <td>1</td>
+                    </tr>
+    
+                </table>
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </div>
+    
+            <!--Order Summary Right Begins -->
+            <div class="col-md my-5">
+                <div class="container">
+                    <table class="table table-hover table-bordered">
+                        <tr class="text-primary table-active">
+                            <th>Total</th>
+                            <th>Price</th>
+                        </tr>
+    
+                        <tr>
+                            <td style="font-weight: bold;" class="text-primary">
+                                Subtotal:
+                            </td>
+                            <td class="text-primary">$500</td>
+                        </tr>
+    
+                        <tr>
+                            <td style="font-weight: bold;" class="text-primary">
+                                Shipping:
+                            </td>
+                            <td class="text-primary">$45</td>
+                        </tr>
+    
+                        <tr>
+                            <td style="font-weight: bold;" class="text-primary">
+                                Total:
+                            </td>
+                            <td class="text-primary">$545</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    
+
+         <!-- Contact section -->
+         <section class="contact-div">
+            <div class="container my-5" id="contact-container">
+                <div class="parent-div">
+                    <div class="row" id="row">
+                        <div class="col-md">
+                            <h4>About us</h4>
+                            <div class="hr"></div>
+                            <p class="contact-first-p">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dolorum ex laborum eos unde, soluta perspiciatis
+                                Dolorum ex laborum eos unde!
+                            </p>
+                        </div>
+                        <div class="col-md">
+                            <h4>Get in Touch</h4>
+                            <div class="hr"></div>
+                            <p  class="contact-second-p">
+                                Onitsha,Anambra  Nigeria
+                            </p>
+                            <p  class="contact-second-p">support @jackoFruitty.com</p>
+                            <p  class="contact-second-p">+00 111 222 3333</p>
+                        </div>
+                        <div class="col-md">
+                            <h4>Subscribe</h4>
+                            <div class="hr"></div>
+                            <p class="contact-third-p">
+                                Subscribe to our mailing list to get the latest updates
+                            </p>
+                            <div class="input-div">
+                                <input type="email" placeholder="Email">
+                                <button class="icon-btn text-center"><i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-md">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- FOOTER SECTION -->
+        <section class="footer-section">
+            <div class="container">
+                <footer>
+                    <p>Copyrights &copy2022 - <b>Anhydrase Devs</b> , All Rights Reserved.</p>
+                </footer>
+            </div>
+        </section>
+       
+    </div>
+
+    
+    
+    </div>
+</body>
+</html>
