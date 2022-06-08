@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Script links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/aebe1e736b.js" crossorigin="anonymous"></script>
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- title -->
+    <title>Jackofruitty | Payment</title>
+</head>
+<body>
+
+    <section class="home-section" id="home-div">
+        <div class="">
+        
+            <!-- NAVBAR -->
+            <div class="navbar navbar-dark bg-dark fixed-top " id="navbar">
+                <div class="container">
+                    <div class="d-flex">
+                        <button class="navbar-toggler d-block d-md-none mx-2" type="button" data-toggle="collapse" data-target="#moileNav" aria-controls="collapseExample" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> 
+                        <a href="index.html" class="navbar-brand"><img src="./images/JackoFruity.PNG" alt="logo" style="width:100px;"></a>
+                    </div>
+                    
+                  
+
+                    <nav class=" d-none d-md-block"> 
+                        <ul class="navbar nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Shop
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="cart.html">Cart</a>
+                                  <a class="dropdown-item" href="order.html">Order</a>
+                                  <a class="dropdown-item" href="payment.html">Pay</a>
+                                </div>
+                              </li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                    </nav>
+                       
+                    <div class="icon-nav">
+                        <a href="" style="margin-right: 10px;"><i class="bi bi-cart3"></i></a>
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>  
+                </div>
+               
+               
+            </div>
+
+
+            <!--NAVBAR MOBILE VIEW -->
+            
+
+            <nav class=" collapse navbar-collapse bg-dark my-5 d-md-none fixed-top second-nav" id="moileNav" > 
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="cart.html">Cart</a>
+                          <a class="dropdown-item" href="order.html">Order</a>
+                          <a class="dropdown-item" href="payment.html">Pay</a>
+                        </div>
+                      </li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+           
+            <!-- NAVBAR MOBILE VIEW ENDS -->
+           
+
+               
+
+            <div class="home-writeUp" style="margin-top: 200px;">
+                <div class="container text-center" id="text-container">
+                    <h5>FRESH & ORGANIC</h5>
+                    <h1>Pay</h1>
+                </div>
+
+                <div class="d-flex justify-content-center" id="btn-div">
+                    <button class="btn btn-primary btn1">Fruit Collection</button>
+                    <button class="btn btn2">Contact Us</button>
+                </div>
+            </div>
+        
+        </div>
+        
+            
+    </section>
+
+
+    <!-- PAYMENT SECTION -->
+    <section class="payment-section">
+        <div class="container">
+            <div class="wrapper">
+                <div class="address-div">
+
+                    <button type="submit" style="margin-bottom: 10px;" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseExample"> <i class="fa-solid fa-square-check"></i> Billing Address</button>
+                    <div class="collapse" id="collapseOne">
+                        <div class="card-body" id="card-body">
+                            <form>
+                                <div class="form-group">
+                                  <input type="text" class="form-control"  placeholder="Name">
+                                </div> 
+
+                                <div class="form-group">
+                                    <input type="email" class="form-control"  placeholder="Email">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control"  placeholder="Address">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" class="form-control"  placeholder="Phone">
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea  class="form-control" name="" id="" cols="20" rows="5" placeholder="Say Something"></textarea>
+                                </div>
+
+                            </form>
+                        
+                        </div>
+                    </div>
+                    <br>
+
+                    <button type="submit" style="margin-bottom: 10px;" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseExample"> <i class="fa-solid fa-square-check"></i> Shipping Address</button>
+                    <div class="collapse" id="collapseTwo">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="Shipping address">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <button type="submit" style="margin-bottom: 10px;" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseExample"> <i class="fa-solid fa-square-check"></i> Cards Details</button>
+                    <div class="collapse" id="collapseThree">
+                        <div class="card-body">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="name">Name on card</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div> 
+
+                                   
+                                <div class="form-group">
+                                    <label for="cardNum">Card number</label>
+                                    <input type="number" min="0" class="form-control" id="cardNum" placeholder="card number">
+                                </div>
+                                    
+                                
+
+                                <div id="cardVal-div" class="d-flex justify-content-between">
+                                    <div class="form-group mr-3">
+                                        <label for="cardVal">Valid through (MM-YY)</label>
+                                        <input type="number" min="0" class="form-control" id="cardVal" placeholder="MM-YY">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="cvv">CVV (3 Digits)</label>
+                                        <input type="number" min="0" class="form-control" id="cvv" placeholder="...">
+                                    </div>
+                                </div>
+
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="config">
+                                    <label class="custom-control-label" for="config">Allow to securely save my card details</label>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="order-details-div">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Your Order Details</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td colspan="2">Strawberry</td>
+                                <td>$85</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Berry</td>
+                                <td>$70</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Lemon</td>
+                                <td>$35</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Subtotal</td>
+                                <td>$190</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Shipping</td>
+                                <td>$50</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Total</td>
+                                <td>$240</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button type="submit">Pay for order</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Contact section -->
+     <section class="contact-div">
+        <div class="container my-5" id="contact-container">
+            <div class="parent-div">
+                <div class="row" id="row">
+                    <div class="col-md">
+                        <h4>About us</h4>
+                        <div class="hr"></div>
+                        <p class="contact-first-p">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Dolorum ex laborum eos unde, soluta perspiciatis
+                            Dolorum ex laborum eos unde!
+                        </p>
+                    </div>
+                    <div class="col-md">
+                        <h4>Get in Touch</h4>
+                        <div class="hr"></div>
+                        <p  class="contact-second-p">
+                            Onitsha,Anambra  Nigeria
+                        </p>
+                        <p  class="contact-second-p">support @jackoFruitty.com</p>
+                        <p  class="contact-second-p">+00 111 222 3333</p>
+                    </div>
+                    <div class="col-md">
+                        <h4>Subscribe</h4>
+                        <div class="hr"></div>
+                        <p class="contact-third-p">
+                            Subscribe to our mailing list to get the latest updates
+                        </p>
+                        <div class="input-div">
+                            <input type="email" placeholder="Email">
+                            <button class="icon-btn text-center"><i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- FOOTER SECTION -->
+    <section class="footer-section">
+        <div class="container">
+            <footer>
+                <p>Copyrights &copy2022 - <b>Anhydrase Devs</b> , All Rights Reserved.</p>
+            </footer>
+        </div>
+    </section>
+
+</body>
+</html>
