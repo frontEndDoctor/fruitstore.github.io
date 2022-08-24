@@ -1,2 +1,2 @@
-# Jacko Fruit Store
-Updated codes for jackofruitty
+#Jacko Fuitty Store
+An e-commerce site for fruits sales
