@@ -1,2 +1,3 @@
-#Jacko Fuitty Store
-An e-commerce site for fruits sales
+# An Ecommerce Store
+This site was built for fruit sales
+
